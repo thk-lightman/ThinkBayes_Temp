@@ -14,11 +14,12 @@ pandas = ">=0.24.0"
 pytensor = ">=2.19,<2.20"  # 오타 주의: 'pytensor'가 아닌 올바른 패키지 이름을 사용해야 합니다. (예: 'tensorflow' or 'pytorch')
 scipy = ">=1.4.1"
 typing-extensions = ">=3.7.4"
-jupyter = "^1.0.0"
-ipykernel = "^6.29.4"
 empiricaldist = "^0.7.2"
 seaborn = "^0.13.2"
 statsmodels = "^0.14.1"
+jupyter = "^1.0.0"
+ipykernel = "^6.29.4"
+pymc = "^5.12.0"
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

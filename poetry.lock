@@ -1348,6 +1348,25 @@ plugins = ["importlib-metadata"]
 windows-terminal = ["colorama (>=0.4.6)"]
 
 [[package]]
+name = "pymc"
+version = "5.12.0"
+description = "Probabilistic Programming in Python: Bayesian Modeling and Probabilistic Machine Learning with PyTensor"
+category = "main"
+optional = false
+python-versions = ">=3.9"
+
+[package.dependencies]
+arviz = ">=0.13.0"
+cachetools = ">=4.2.1"
+cloudpickle = "*"
+fastprogress = ">=0.2.0"
+numpy = ">=1.15.0"
+pandas = ">=0.24.0"
+pytensor = ">=2.19,<2.20"
+scipy = ">=1.4.1"
+typing-extensions = ">=3.7.4"
+
+[[package]]
 name = "pyparsing"
 version = "3.1.2"
 description = "pyparsing module - Classes and methods to define and execute parsing grammars"
@@ -1885,7 +1904,7 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.9,<3.13" 
-content-hash = "2bf853ac3dc39946f2cedb47b37ccc759617b5b0f939b980ac9872cfc7ce7708"
+content-hash = "82d2e62206886bd57745a9c849c9f936fe63b5cae92591ad3f06e331af808b8e"
 
 [metadata.files]
 anyio = [
@@ -2872,6 +2891,10 @@ pycparser = [
 pygments = [
     {file = "pygments-2.17.2-py3-none-any.whl", hash = "sha256:b27c2826c47d0f3219f29554824c30c5e8945175d888647acd804ddd04af846c"},
     {file = "pygments-2.17.2.tar.gz", hash = "sha256:da46cec9fd2de5be3a8a784f434e4c4ab670b4ff54d605c4c2717e9d49c4c367"},
+]
+pymc = [
+    {file = "pymc-5.12.0-py3-none-any.whl", hash = "sha256:81c214622e13625d4ba2f1ac6d24ba08b4271b9f0d180b441d188dc7637af1df"},
+    {file = "pymc-5.12.0.tar.gz", hash = "sha256:44e520986870db392f601d09b8b767527a7ea3f0b2cb59b0e7c34c3bc34f93da"},
 ]
 pyparsing = [
     {file = "pyparsing-3.1.2-py3-none-any.whl", hash = "sha256:f9db75911801ed778fe61bb643079ff86601aca99fcae6345aa67292038fb742"},
